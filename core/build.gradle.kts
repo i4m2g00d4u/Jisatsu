@@ -6,6 +6,7 @@ plugins {
 
 dependencies {
     api(project(":api"))
+    labyApi("core")
 }
 
 labyModProcessor {
